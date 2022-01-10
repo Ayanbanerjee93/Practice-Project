@@ -1,0 +1,175 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    font-family: serif;
+}
+
+
+/* --------------------common css */
+
+
+/*--------------------------------------------header-section-starts-here--------------- */
+
+.head-section {
+    /* background-color: rgb(0, 17, 255); */
+    display: flex;
+}
+
+
+/* ------------------------------------------------This is navbar  menu and left-bar---------*/
+
+.navbar-left {
+    display: flex;
+    /* background-color: rgb(241, 216, 216); */
+    width: 68%;
+    margin-top: 11px;
+    margin-right: 219px;
+    margin-left: -128px;
+}
+
+.navbar-left ul {
+    display: flex;
+}
+
+.navbar-left ul li {
+    list-style: none;
+}
+
+.navbar-left ul li a {
+    text-decoration: none;
+    color: tomato;
+    padding: 10px;
+    margin: 55px;
+    box-shadow: 5px 5px 3px #fff;
+    transition-duration: 1s;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.navbar-left ul li a:hover {
+    box-shadow: 5px 5px 3px #888888;
+    color: black;
+}
+
+
+/* ------------------------------------------------------This is search nav right section----- */
+
+.navbar-right {
+    width: 32%;
+}
+
+.navbar-search-box {
+    padding-left: 70px;
+    padding-top: 10px;
+}
+
+input[type] {
+    padding: 1px;
+    width: 150px;
+    transition: width 1.2s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+input[type]:hover {
+    color: brown;
+    width: 200px;
+}
+
+.nav-btn {
+    border: 0px;
+    padding: 3px 15px 3px 15px;
+    box-shadow: 5px 5px 3px #fff;
+    transition-duration: 1s;
+    border-radius: 2px;
+    font-weight: bolder;
+    font-family: serif;
+}
+
+.nav-btn:hover {
+    box-shadow: 5px 5px 3px #888888;
+    color: black;
+}
+
+
+/*--------------------------------------------header-section-ends-here--------------- */
+
+
+/* --------------------------------------card-section-starts-here------------------------- */
+
+
+/* ------------------------card-heading-section */
+
+.card-heading {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.card-heading-style {
+    border-left: 2px solid tomato;
+    width: 30%;
+    border-image-slice: 1;
+}
+
+
+/* --------------------------------------------card-form- sectioon-------- */
+
+.form-section {
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 174px;
+    margin-right: 214px;
+}
+
+.card-head {
+    /* background-color: aquamarine; */
+    text-align: center;
+    padding: 10px;
+}
+
+.card-head-three {
+    /* background-color: aquamarine; */
+    padding: 10px;
+    text-align: none;
+}
+
+.card-head-ol-list {
+    padding-top: 2px;
+}
+
+.card-head-ol-list li {
+    padding: 10px;
+    color: crimson;
+}
+
+.cards {
+    /* width: 10%; */
+    background-image: linear-gradient(to right, rgb(245, 240, 240), white, rgb(246, 240, 240));
+    width: 195px;
+    border: 0px;
+    border-radius: 3px;
+    padding: 10px;
+    height: 320px;
+    transition-duration: 1s;
+}
+
+.cards:hover {
+    box-shadow: 10px 8px 3px #888888;
+}
+
+.left-form {
+    background-color: red;
+    margin-left: 10px;
+}
+
+.right-form {
+    background-color: rgb(85, 102, 200);
+    /* margin-right: 10px; */
+    margin-left: 10px;
+}
+
+
+/* ----------------------------------------------Card-section-starts-here--------- */
