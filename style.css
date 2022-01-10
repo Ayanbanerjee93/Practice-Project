@@ -179,7 +179,9 @@ input[type]:hover {
     margin-top: 50px;
     margin-left: 147px;
     margin-right: 187px;
-    /* background-color: antiquewhite; */
+    background-image: linear-gradient(to right, rgb(228, 245, 245), white, rgb(228, 241, 241));
+    padding: 20px;
+    margin-bottom: 50px;
 }
 
 .semantic-para {
@@ -230,8 +232,27 @@ input[type]:hover {
     text-decoration: underline;
 }
 
-.semantic-example-list {}
+
+/* .semantic-example-list {} */
 
 .semantic-example-list li {
     padding: 5px;
+}
+
+.semantic-heading-style {
+    /* background-color: aquamarine; */
+    border-left: 2px solid tomato;
+    margin: 0px 480px 0px 415px;
+    border-image-slice: 1;
+    font-size: 23px;
+}
+
+
+/* -----------------------------Footer--------- */
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
