@@ -173,3 +173,65 @@ input[type]:hover {
 
 
 /* ----------------------------------------------Card-section-starts-here--------- */
+
+.semantic-section {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 147px;
+    margin-right: 187px;
+    /* background-color: antiquewhite; */
+}
+
+.semantic-para {
+    margin-top: 95px;
+    border: 0.5px;
+    width: 300px;
+    height: 206px;
+    padding: 15px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    transition-duration: 1s;
+    background-image: linear-gradient(to right, rgb(240, 243, 248), white, rgb(244, 239, 245));
+}
+
+.semantic-para:hover {
+    box-shadow: 10px 8px 3px #888888;
+}
+
+.semantic-para p {
+    padding-top: 5px;
+}
+
+.semantic-example {
+    /* border: 3px solid red; */
+    width: 300px;
+    height: 356px;
+    padding: 5px;
+    padding-top: 10px;
+    text-align: left;
+    font-size: 18px;
+    transition-duration: 1s;
+    background-image: linear-gradient(to right, rgb(240, 243, 248), white, rgb(244, 239, 245));
+}
+
+.semantic-example:hover {
+    box-shadow: 10px 8px 3px #888888;
+}
+
+.semantic-example-head {
+    text-align: center;
+    /* padding: 3px; */
+}
+
+.semantic-example-head h3 {
+    font-size: 22px;
+    color: crimson;
+    text-decoration: underline;
+}
+
+.semantic-example-list {}
+
+.semantic-example-list li {
+    padding: 5px;
+}
